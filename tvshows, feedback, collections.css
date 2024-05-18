@@ -1,0 +1,239 @@
+.movie-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.movie-card .movie-info {
+    padding: 10px;
+}
+
+.movie-card .movie-info h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.movie-card .movie-info p {
+    font-size: 0.8rem;
+    margin: 10px 0;
+}
+
+.movie-card .movie-info a {
+    background-color: #f15b2a;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/* Grid layout for movie cards */
+#movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+/* TV Shows Page Styles */
+
+#tvshows {
+	margin: 50px auto;
+	max-width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.tvshow-card {
+	margin: 20px;
+	background-color: #fff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.tvshow-card img {
+	width: 100%;
+	height: auto;
+}
+
+.tvshow-info {
+	padding: 20px;
+}
+
+.tvshow-info h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.tvshow-info p {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.tvshow-info a {
+	display: inline-block;
+	background-color: #f15b2a;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 18px;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.tvshow-info a:hover {
+	background-color: #005ea8;
+}
+
+@media screen and (max-width: 767px) {
+	.tvshow-card {
+		width: 80%;
+	}
+}
+
+/* Content Cards */
+/* Reset default styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  
+  /* Style the sections */
+  .section {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+  }
+  
+  .section h1 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+  }
+  
+section .card{
+	display: in;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#games {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.game-card {
+	margin: 10px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-card img {
+	width: 100%;
+	height: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.game-info {
+	padding: 10px;
+	text-align: center;
+}
+
+.game-info h2 {
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.game-info p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.game-info a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #f15b2a;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.game-info a:hover {
+	background-color: #f15b2a;
+	cursor: pointer;
+}
+#collections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .collection-card {
+    width: 300px;
+    margin: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .collection-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .collection-info {
+    padding: 20px;
+  }
+  
+  .collection-info h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+  }
+  
+  .collection-info p {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+  }
+  
+  .collection-info a {
+    display: block;
+    background-color: #f15b2a;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .collection-info a:hover {
+    background-color: #d44d22;
+  }
+  

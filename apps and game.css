@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 14, 25);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .brand-logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links .nav-items {
+    margin: 0 15px;
+}
+
+.nav-links .nav-items a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links .nav-items a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main.content {
+    padding: 20px;
+}
+
+.content h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.content p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Games Section Styles */
+#games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.game-card {
+    background-color: rgb(59, 188, 243);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.game-card img {
+    border-bottom: 1px solid #ddd;
+}
+
+.game-info {
+    padding: 10px;
+}
+
+.game-info h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.game-info a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.game-info a:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.footer-content ul li {
+    margin: 0 15px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+}
+
+.footer-content p {
+    margin: 10px 0 0;
+}

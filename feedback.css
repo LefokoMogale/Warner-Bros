@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .brand-logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links .nav-items {
+    margin: 0 15px;
+}
+
+.nav-links .nav-items a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links .nav-items a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.content h1 {
+    text-align: center;
+    color: #333;
+}
+
+.content p {
+    text-align: center;
+    color: #666;
+    font-size: 1.2em;
+}
+
+/* Feedback Form Styles */
+.feedback-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.feedback-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.emoji-ratings input[type="radio"] {
+    display: none;
+}
+
+.emoji-ratings input[type="radio"] + label {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.emoji-ratings input[type="radio"]:checked + label {
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form-group button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.footer-content ul li {
+    margin: 0 15px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+}
+
+.footer-content p {
+    margin: 10px 0 0;
+}

@@ -1,0 +1,134 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 14, 25);
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .brand-logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links .nav-items {
+    margin: 0 15px;
+}
+
+.nav-links .nav-items a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links .nav-items a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main Content Styles */
+main.content {
+    padding: 20px;
+    text-align: center;
+}
+
+#tvshows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tvshow-card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30px;
+    text-align: center;
+    display: contents;
+    
+
+}
+
+.tvshow-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.tvshow-info h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.tvshow-info p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-content ul li {
+    margin: 0 15px;
+}
+
+footer .footer-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-content ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 20px 0 0 0;
+    color: white;
+}
